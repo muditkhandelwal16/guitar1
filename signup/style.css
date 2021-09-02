@@ -1,0 +1,68 @@
+.fillform{
+    margin-top: 100px;
+}
+body{
+    /* background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url(../images/guitar-musical-instrument-leisure-activities-electric-guitar.jpg); */
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ; */
+    background-repeat: no-repeat;
+    Background-attachment:fixed;
+
+    background-size: cover;
+}
+
+.phoneimg{
+    width: 100%;
+}
+.homebutton{
+    border: 1px black solid;
+    border-radius: 5px;
+    position:absolute;
+    top: 10px;
+    right: 20px;
+}
+#rightbox{
+    width: 510px;
+    position: relative;
+}
+.phonenumber{
+    width: 240px;
+}
+.gender{
+    width: 240px;
+    position: absolute;
+    right: 6px;
+    top: 136px;
+}
+#sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 487px;
+}
+.bheight{
+    height: 48px;
+}
+.ldivider{
+    width: 210px;
+}
+.divideror{
+    margin-left: 229px;
+    margin-top: -30px;
+}
+.rdivider{
+    width: 210px;
+    margin-left: 273px;
+    margin-top: -25px;
+}
+.google{
+    list-style-type:none;
+    padding-left: 10px;
+    width: 550px;
+    margin-left: -10px;
+}
+.google li{
+    display: inline; 
+    margin-right: 15px;
+}
+.google a{
+    padding: 10px 15px;
+}

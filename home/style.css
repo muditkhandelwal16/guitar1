@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/woman2.5.jpg);
+    background-repeat: no-repeat;
+    Background-attachment:fixed;
+    height: 130vh;
+    background-size: cover;
+}
+.logo{
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nev{
+    overflow: hidden;
+    background-color: rgba(200,200,200,0.5);
+    font-family: 'Crimson Pro', serif;
+    
+}
+.nev li{
+    display: inline;
+    float:right;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.nev li a{
+    color:black;
+    text-decoration: none;
+    padding:5px 10px;
+
+}
+.nev .abtnev a:hover{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#sign{
+    border: 2px white solid;
+    border-radius: 50px;
+    margin-left: -10px;
+    background-color: white;
+    padding: 4px 9px;
+    color:black;
+}
+#login{
+    border: 1px black solid;
+    border-radius: 50px;
+}
+#hm{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#login:hover{
+    background-color: white;
+    color:black;
+}
+#sign:hover{
+    border:2px black solid;
+    box-sizing: border-box;
+}
+.play{
+    font-family: 'Merriweather', serif;
+    color:white;
+    width: 540px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    font-size: 22px;
+    text-shadow:5px 5px 10px rgb(133, 130, 130);
+    margin-left: 100px;
+}
+.learn{
+    margin-left: 200px;
+    list-style-type: none;
+}
+.learn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.learn li{
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+.learn a{
+    border: 1px white solid;
+    border-radius: 5px;
+    padding:10px 15px;
+}
+.learn a:hover{
+    color: black;
+    background-color: rgb(236, 186, 91);
+    border: 1px solid white;
+}
+/* .oneform{
+    margin-left: 100px;
+} */
+/* .oneform h1{
+    margin-top: 330px;
+    width: 600px;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+    font-size: 50px;
+    text-shadow:6px 6px 8px black;
+} */
+
+.slider{
+    width:900px;
+    margin-left: 300px;
+    margin-top: 30px;
+    height: 100px;
+}
+.slider button{
+    margin-top: 170px;
+}

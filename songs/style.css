@@ -1,0 +1,87 @@
+/* .lecture{
+    margin-top: 100px;
+} */
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/mang.jpeg);
+    background-repeat: no-repeat;
+    Background-attachment:fixed;
+    height: 130vh;
+    background-size: cover;
+}
+.logo{
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nev{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Crimson Pro', serif;
+    
+}
+.nev li{
+    display: inline;
+    float:right;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+.nev li a{
+    color:black;
+    text-decoration: none;
+    padding:5px 10px;
+
+}
+.nev .abtnev a:hover{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#sign{
+    border: 2px white solid;
+    border-radius: 50px;
+    margin-left: -10px;
+    background-color: white;
+    padding: 4px 9px;
+    color:black;
+}
+#login{
+    border: 1px black solid;
+    border-radius: 50px;
+}
+#hm{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#login:hover{
+    background-color: white;
+    color:black;
+}
+#sign:hover{
+    border:2px black solid;
+    box-sizing: border-box;
+}
+
+.row{
+    margin-top: 70px;
+}
+.shape{
+    margin-left: 40px;
+}
+.engson{
+    font-family: 'Crimson Pro', serif;
+    color:white;
+    margin:10px 10px;
+    font-size: 30px;
+}
+.navtop{
+    width: 300px;
+}
+#lrn{
+    color: white;
+    font-family: 'Crimson Pro', serif;
+    margin-top: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
